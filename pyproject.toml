@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "website-to-knowledge-base"
+version = "0.1.0"
+description = ""
+authors = ["JimZer <jimi.vaubien@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "website_to_knowledge_base"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.4"
+langchain = "^0.0.144"
+unstructured = "^0.5.13"
+chromadb = "^0.3.21"
+tiktoken = "^0.3.3"
+python-dotenv = "^1.0.0"
+loguru = "^0.7.0"
+streamlit = "^1.21.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
