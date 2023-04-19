@@ -1,13 +1,13 @@
 # AI-Powered Knowledge Base
 
-This repository contains an AI-powered knowledge base that utilizes the LLMs model to answer questions based on a given website's content. 
+This repository contains an AI-powered knowledge base that utilizes the LLMs model to answer questions based on a given website's content and **provide sources as links** to the relevant pages. 
 
 The system:
 1. Loads the website's content using a **sitemap**
 2. Split each web page into **chunks**
 4. **Embed** each chunk using a LLM (for now OpenAI) and store them in the **Chroma vector database
 5. Then it embeds the user query and run a similarity search using the Chroma database
-5. Finally it loads the similarity search results as context for a LLM (for now ChatGPT) to find relevant answers
+5. Finally it loads the similarity search results as context for a LLM (for now ChatGPT) to find relevant answers and citing the sources
 
 It also provides a Streamlit-based web interface for an easy-to-use experience.
 
