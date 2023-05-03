@@ -1,5 +1,7 @@
 # AI-Powered Knowledge Base
 
+[Demo](https://user-images.githubusercontent.com/19983429/235894528-9ad791a8-f2f0-4ad8-a2fc-69f4ed0aa8d8.mp4)
+
 This repository contains an AI-powered knowledge base that utilizes the LLMs model to answer questions based on a given website's content and **provide sources as links** to the relevant pages. 
 
 The system:
